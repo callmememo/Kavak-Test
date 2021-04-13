@@ -3,27 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		BB2E2589262617B400289168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E2588262617B400289168 /* AppDelegate.swift */; };
 		BB2E258B262617B400289168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E258A262617B400289168 /* SceneDelegate.swift */; };
-		BB2E258D262617B400289168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E258C262617B400289168 /* ViewController.swift */; };
-		BB2E2590262617B400289168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2E258E262617B400289168 /* Main.storyboard */; };
 		BB2E2592262617B500289168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2E2591262617B500289168 /* Assets.xcassets */; };
 		BB2E2595262617B500289168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2E2593262617B500289168 /* LaunchScreen.storyboard */; };
+		BB2E259F2626185700289168 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E259E2626185700289168 /* MVVMViewController.swift */; };
+		BB2E25A4262618E600289168 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25A3262618E600289168 /* Gnome.swift */; };
+		BB2E25A826261A3500289168 /* GnomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25A726261A3500289168 /* GnomeViewController.swift */; };
+		BB2E25B026261AC000289168 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BB2E25AF26261AC000289168 /* SnapKit */; };
+		BB2E25B426261B0200289168 /* GnomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25B326261B0200289168 /* GnomeViewModel.swift */; };
+		BB2E25B826261B6D00289168 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25B726261B6D00289168 /* Utils.swift */; };
+		BB2E25C126261BEB00289168 /* GnomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25C026261BEB00289168 /* GnomeCollectionViewCell.swift */; };
+		BB2E25C826261CBA00289168 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BB2E25C726261CBA00289168 /* Kingfisher */; };
+		BB2E25D026261E3A00289168 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BB2E25CF26261E3A00289168 /* Alamofire */; };
+		BB2E25D426261E5D00289168 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25D326261E5D00289168 /* RestAPI.swift */; };
+		BB2E25D826261F7600289168 /* Brastlewark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25D726261F7500289168 /* Brastlewark.swift */; };
+		BB2E25DB2626284900289168 /* GnomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25DA2626284900289168 /* GnomeDetailViewController.swift */; };
+		BB2E25DE2626297500289168 /* GnomeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E25DD2626297500289168 /* GnomeDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB2E2585262617B400289168 /* Kavak Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kavak Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2E2588262617B400289168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB2E258A262617B400289168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB2E258C262617B400289168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB2E258F262617B400289168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB2E2591262617B500289168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2E2594262617B500289168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB2E2596262617B500289168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2E259E2626185700289168 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MVVMViewController.swift; path = "Kavak Test/MVVMViewController.swift"; sourceTree = SOURCE_ROOT; };
+		BB2E25A3262618E600289168 /* Gnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
+		BB2E25A726261A3500289168 /* GnomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeViewController.swift; sourceTree = "<group>"; };
+		BB2E25B326261B0200289168 /* GnomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeViewModel.swift; sourceTree = "<group>"; };
+		BB2E25B726261B6D00289168 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BB2E25C026261BEB00289168 /* GnomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB2E25D326261E5D00289168 /* RestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		BB2E25D726261F7500289168 /* Brastlewark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brastlewark.swift; sourceTree = "<group>"; };
+		BB2E25DA2626284900289168 /* GnomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailViewController.swift; sourceTree = "<group>"; };
+		BB2E25DD2626297500289168 /* GnomeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2E25D026261E3A00289168 /* Alamofire in Frameworks */,
+				BB2E25C826261CBA00289168 /* Kingfisher in Frameworks */,
+				BB2E25B026261AC000289168 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,71 @@
 		BB2E2587262617B400289168 /* Kavak Test */ = {
 			isa = PBXGroup;
 			children = (
+				BB2E25D226261E5100289168 /* Network */,
+				BB2E25BF26261BD700289168 /* View */,
+				BB2E25B626261B6700289168 /* Utils */,
+				BB2E25B226261AF500289168 /* ViewModel */,
+				BB2E25A2262618D400289168 /* Model */,
+				BB2E259D2626183D00289168 /* ViewController */,
 				BB2E2588262617B400289168 /* AppDelegate.swift */,
 				BB2E258A262617B400289168 /* SceneDelegate.swift */,
-				BB2E258C262617B400289168 /* ViewController.swift */,
-				BB2E258E262617B400289168 /* Main.storyboard */,
 				BB2E2591262617B500289168 /* Assets.xcassets */,
 				BB2E2593262617B500289168 /* LaunchScreen.storyboard */,
 				BB2E2596262617B500289168 /* Info.plist */,
 			);
 			path = "Kavak Test";
+			sourceTree = "<group>";
+		};
+		BB2E259D2626183D00289168 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E259E2626185700289168 /* MVVMViewController.swift */,
+				BB2E25A726261A3500289168 /* GnomeViewController.swift */,
+				BB2E25DA2626284900289168 /* GnomeDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB2E25A2262618D400289168 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E25A3262618E600289168 /* Gnome.swift */,
+				BB2E25D726261F7500289168 /* Brastlewark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB2E25B226261AF500289168 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E25B326261B0200289168 /* GnomeViewModel.swift */,
+				BB2E25DD2626297500289168 /* GnomeDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BB2E25B626261B6700289168 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E25B726261B6D00289168 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BB2E25BF26261BD700289168 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E25C026261BEB00289168 /* GnomeCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB2E25D226261E5100289168 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E25D326261E5D00289168 /* RestAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +161,11 @@
 			dependencies = (
 			);
 			name = "Kavak Test";
+			packageProductDependencies = (
+				BB2E25AF26261AC000289168 /* SnapKit */,
+				BB2E25C726261CBA00289168 /* Kingfisher */,
+				BB2E25CF26261E3A00289168 /* Alamofire */,
+			);
 			productName = "Kavak Test";
 			productReference = BB2E2585262617B400289168 /* Kavak Test.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +193,11 @@
 				Base,
 			);
 			mainGroup = BB2E257C262617B400289168;
+			packageReferences = (
+				BB2E25AE26261AC000289168 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				BB2E25C626261CBA00289168 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				BB2E25CE26261E3A00289168 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = BB2E2586262617B400289168 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +214,6 @@
 			files = (
 				BB2E2595262617B500289168 /* LaunchScreen.storyboard in Resources */,
 				BB2E2592262617B500289168 /* Assets.xcassets in Resources */,
-				BB2E2590262617B400289168 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +224,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2E258D262617B400289168 /* ViewController.swift in Sources */,
+				BB2E25B426261B0200289168 /* GnomeViewModel.swift in Sources */,
+				BB2E25C126261BEB00289168 /* GnomeCollectionViewCell.swift in Sources */,
+				BB2E25DE2626297500289168 /* GnomeDetailViewModel.swift in Sources */,
+				BB2E259F2626185700289168 /* MVVMViewController.swift in Sources */,
+				BB2E25A826261A3500289168 /* GnomeViewController.swift in Sources */,
 				BB2E2589262617B400289168 /* AppDelegate.swift in Sources */,
+				BB2E25D426261E5D00289168 /* RestAPI.swift in Sources */,
 				BB2E258B262617B400289168 /* SceneDelegate.swift in Sources */,
+				BB2E25D826261F7600289168 /* Brastlewark.swift in Sources */,
+				BB2E25A4262618E600289168 /* Gnome.swift in Sources */,
+				BB2E25DB2626284900289168 /* GnomeDetailViewController.swift in Sources */,
+				BB2E25B826261B6D00289168 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BB2E258E262617B400289168 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB2E258F262617B400289168 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB2E2593262617B500289168 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,7 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LFN66356X3;
+				DEVELOPMENT_TEAM = B9375LWLKW;
 				INFOPLIST_FILE = "Kavak Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LFN66356X3;
+				DEVELOPMENT_TEAM = B9375LWLKW;
 				INFOPLIST_FILE = "Kavak Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,6 +429,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB2E25AE26261AC000289168 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		BB2E25C626261CBA00289168 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+		BB2E25CE26261E3A00289168 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB2E25AF26261AC000289168 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB2E25AE26261AC000289168 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BB2E25C726261CBA00289168 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB2E25C626261CBA00289168 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		BB2E25CF26261E3A00289168 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB2E25CE26261E3A00289168 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB2E257D262617B400289168 /* Project object */;
 }

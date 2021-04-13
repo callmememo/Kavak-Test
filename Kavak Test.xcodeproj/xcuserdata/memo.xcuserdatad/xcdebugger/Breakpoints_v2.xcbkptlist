@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B546D3C0-9656-4D72-9D45-73C50918E45B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3CEF166-B519-4339-B492-92916F631361"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kavak Test/ViewController/GnomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "fetchGnomes()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "250372C8-6DD8-462E-8CB9-0AEF153B2FA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kavak Test/ViewController/GnomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "fetchGnomes()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "250372C8-6DD8-462E-8CB9-0AEF153B2FA6 - 522eec4f38dc07c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Kavak_Test.GnomeViewController.(fetchGnomes in _AD0252FE802688F30B40460D4878C67C)() -&gt; ()"
+                  moduleName = "Kavak Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/memo/Documents/Kavak%20Test/Kavak%20Test/ViewController/GnomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "250372C8-6DD8-462E-8CB9-0AEF153B2FA6 - ceebcac54af443ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Bool) -&gt; () in Kavak_Test.GnomeViewController.(fetchGnomes in _AD0252FE802688F30B40460D4878C67C)() -&gt; ()"
+                  moduleName = "Kavak Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/memo/Documents/Kavak%20Test/Kavak%20Test/ViewController/GnomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C6AC198-604D-4085-BB43-A11D125FFA4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kavak Test/ViewModel/GnomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "setup(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C6AC198-604D-4085-BB43-A11D125FFA4B - f27788aea98f5b1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Kavak_Test.Gnome&gt;, Swift.Error&gt;) -&gt; () in Kavak_Test.GnomesViewModel.setup((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Kavak Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/memo/Documents/Kavak%20Test/Kavak%20Test/ViewModel/GnomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "8C6AC198-604D-4085-BB43-A11D125FFA4B - f27788aea98f5b1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Kavak_Test.Gnome&gt;, Swift.Error&gt;) -&gt; () in Kavak_Test.GnomesViewModel.setup((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Kavak Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/memo/Documents/Kavak%20Test/Kavak%20Test/ViewModel/GnomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
